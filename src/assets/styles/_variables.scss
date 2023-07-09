@@ -1,0 +1,40 @@
+$primary-color: #4040F2;
+
+$dark-text: #333333;
+$error-color: #ED4034;
+
+@mixin only-phone {
+    @media (max-width: 990px) {
+        @content;
+    }
+}
+
+@mixin only-desktop {
+    @media (min-width: 990px) {
+        @content;
+    }
+}
+
+@mixin only-phone-md {
+    @media (max-width: 1140px) {
+        @content;
+    }
+}
+
+@mixin only-desktop-md {
+    @media (min-width: 1140px) {
+        @content;
+    }
+}
+
+@mixin only-phone-lg {
+    @media (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin only-desktop-lg {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}

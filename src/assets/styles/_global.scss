@@ -1,0 +1,30 @@
+body {
+    font-family: "Airbnb Cereal App";
+}
+
+.content-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    @media (max-width: 1440px) {
+        padding: 0 16px;
+    }
+}
+
+.content-wrapper-lg {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 70px;
+
+    @include only-phone-md {
+        padding: 0 16px;
+    }
+}
+
+.my-spacer {
+    flex: 1;
+}
+
+.notransition {
+    transition: none !important;
+}
