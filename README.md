@@ -1,5 +1,5 @@
 # simple-dash-Vue
-Simple Dash is a dashboard template written in vue.
+Simple Dash is a dashboard template based on [Simple Dash HTML](https://github.com/rexomin/simple-dash-html) written in vue.
 
 ## How to use?
 1. Open your web browser and navigate to the `simple-dash-vue` template repository on GitHub.
