@@ -6,7 +6,7 @@
 
 		<div class="sd-chat-title">Problem with files - #100</div>
 		<div class="sd-chat-header-right">
-			<sd-btn btnstyle="secondary">
+			<sd-btn type="secondary">
 				Resolve
 			</sd-btn>
 		</div>
