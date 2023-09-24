@@ -80,6 +80,7 @@ export default {
 			position: absolute;
 			top: 100px;
 			right: 100px;
+			height: 24px;
 		}
 	}
 

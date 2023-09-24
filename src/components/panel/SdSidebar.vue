@@ -192,6 +192,10 @@ export default {
 		align-items: center;
 		padding: 24px;
 		margin-bottom: 20px;
+
+		img{
+			height: 24px;
+		}
 	}
 
 	.sidebar-top {
